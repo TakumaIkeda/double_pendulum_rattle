@@ -65,7 +65,7 @@ while step < 1000:
   r1 += dt * p1 / m1
   r2 += dt * p2 / m2
 
-  # print(r1, r2)
+  # print(f"r1: {r1}, r2: {r2}")
 
   # gamma01 = 1 / r1 * (d01 - (r1 + r0))
   # gamma12 = ((r2 - r1).linalg.norm() - d12) / (1 / m1 + 1 / m2) * (r1_prev - r2_prev).linalg.norm()
