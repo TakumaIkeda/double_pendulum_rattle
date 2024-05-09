@@ -14,8 +14,8 @@ m2 = 1.0
 theta1 = np.pi / 2
 theta2 = np.pi / 2
 
-theta1dot = 0.0
-theta2dot = 0.0
+theta1dot = 1.0
+theta2dot = -5.0
 
 def plot(step, theta1, theta2, file):
   file.write(f"# Step: {step}\n")
